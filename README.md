@@ -3,10 +3,10 @@
 **Instructions for environment installation:**
 
 You must import the following libraries:
-import smtplib
-import re
-import json
-from os import path
+1. import smtplib
+2. import re
+3. import json
+4. from os import path
 
 Note,
 There is no need to install the libraries, 
@@ -24,9 +24,9 @@ The program sends an email based on the information received.
 
 Running instructions:
 You must enter-
-Recipient email address
-Email subject
-Content (optional)
+1. Recipient email address
+2. Email subject
+3. Content (optional)
 
 Wait for the message-
 'Your email has been sent successfully'
@@ -34,7 +34,7 @@ Wait for the message-
 **Task_2**
 The program validates the JSON file
 (His file path is defined in the program)
-The user receives the test result as input.
+And the user receives the test result as input.
 
 
 The task was done by:
