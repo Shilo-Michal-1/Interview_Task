@@ -23,9 +23,9 @@ def send_email(subject, body, to_email):
         server.starttls()
         server.login(username, password)
         server.sendmail(from_email, to_email, msg)
-        return 1
-    except:
-        return 0
+        return True
+    except ValueError:
+        return False
 
 
 if __name__ == '__main__':
@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
         else:
             isvalid = send_email(subject, content, email_address)
-            if isvalid == 1:
+            if isvalid:
                 print("Your email has been sent successfully")
             else:
                 print("The email sending process failed")
