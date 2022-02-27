@@ -29,9 +29,17 @@ Email subject
 Content (optional)
 
 Wait for the message-
-Your email has been sent successfully
+'Your email has been sent successfully'
 
 **Task_2**
+The program validates the JSON file
+(His file path is defined in the program)
+The user receives the test result as input.
+
+
+The task was done by:
+Michal Shilo | shilomichali@gmail.com
+
 
 
 
